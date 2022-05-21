@@ -29,20 +29,5 @@ namespace ProEventos.API.Controllers
         {
             return _context.Eventos.Where(evento => evento.EventoId == id);
         }
-        [HttpPost]
-        public IEnumerable<Evento> Post(Evento evento)
-        {
-            return _evento;
-        }
-        [HttpPut("{id}")]
-        public IEnumerable<Evento> Put(int id)
-        {
-            return _evento;
-        }
-        [HttpDelete("{id}")]
-        public IEnumerable<Evento> Delete(int id)
-        {
-            return _evento;
-        }
     }
 }
