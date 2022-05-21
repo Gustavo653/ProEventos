@@ -7,7 +7,7 @@ import { Component, OnInit } from '@angular/core';
   styleUrls: ['./eventos.component.scss'],
 })
 export class EventosComponent implements OnInit {
-  public eventos: any;
+  public eventos: any = [];
 
   constructor(private http: HttpClient) {}
 
