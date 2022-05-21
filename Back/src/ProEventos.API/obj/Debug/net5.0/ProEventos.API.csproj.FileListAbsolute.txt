@@ -5,7 +5,6 @@ C:\Users\ujipe\OneDrive\Documentos\GitHub\ProEventos\back\src\ProEventos.API\bin
 C:\Users\ujipe\OneDrive\Documentos\GitHub\ProEventos\back\src\ProEventos.API\bin\Debug\net5.0\ProEventos.API.runtimeconfig.json
 C:\Users\ujipe\OneDrive\Documentos\GitHub\ProEventos\back\src\ProEventos.API\bin\Debug\net5.0\ProEventos.API.runtimeconfig.dev.json
 C:\Users\ujipe\OneDrive\Documentos\GitHub\ProEventos\back\src\ProEventos.API\bin\Debug\net5.0\ProEventos.API.dll
-C:\Users\ujipe\OneDrive\Documentos\GitHub\ProEventos\back\src\ProEventos.API\bin\Debug\net5.0\ref\ProEventos.API.dll
 C:\Users\ujipe\OneDrive\Documentos\GitHub\ProEventos\back\src\ProEventos.API\bin\Debug\net5.0\ProEventos.API.pdb
 C:\Users\ujipe\OneDrive\Documentos\GitHub\ProEventos\back\src\ProEventos.API\bin\Debug\net5.0\Microsoft.OpenApi.dll
 C:\Users\ujipe\OneDrive\Documentos\GitHub\ProEventos\back\src\ProEventos.API\bin\Debug\net5.0\Swashbuckle.AspNetCore.Swagger.dll
@@ -27,3 +26,4 @@ C:\Users\ujipe\OneDrive\Documentos\GitHub\ProEventos\back\src\ProEventos.API\obj
 C:\Users\ujipe\OneDrive\Documentos\GitHub\ProEventos\back\src\ProEventos.API\obj\Debug\net5.0\ref\ProEventos.API.dll
 C:\Users\ujipe\OneDrive\Documentos\GitHub\ProEventos\back\src\ProEventos.API\obj\Debug\net5.0\ProEventos.API.pdb
 C:\Users\ujipe\OneDrive\Documentos\GitHub\ProEventos\back\src\ProEventos.API\obj\Debug\net5.0\ProEventos.API.genruntimeconfig.cache
+C:\Users\ujipe\OneDrive\Documentos\GitHub\ProEventos\Back\src\ProEventos.API\bin\Debug\net5.0\ref\ProEventos.API.dll
