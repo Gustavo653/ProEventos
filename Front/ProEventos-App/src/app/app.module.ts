@@ -10,14 +10,11 @@ import { PalestrantesComponent } from './palestrantes/palestrantes.component';
   declarations: [
     AppComponent,
     EventosComponent,
-      EventosComponent,
-      PalestrantesComponent
-   ],
-  imports: [
-    BrowserModule,
-    AppRoutingModule
+    EventosComponent,
+    PalestrantesComponent,
   ],
+  imports: [BrowserModule, AppRoutingModule],
   providers: [],
-  bootstrap: [AppComponent]
+  bootstrap: [AppComponent],
 })
-export class AppModule { }
+export class AppModule {}
