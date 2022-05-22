@@ -26,12 +26,10 @@ C:\Users\ujipe\OneDrive\Documentos\GitHub\ProEventos\back\src\ProEventos.API\obj
 C:\Users\ujipe\OneDrive\Documentos\GitHub\ProEventos\back\src\ProEventos.API\obj\Debug\net5.0\ref\ProEventos.API.dll
 C:\Users\ujipe\OneDrive\Documentos\GitHub\ProEventos\back\src\ProEventos.API\obj\Debug\net5.0\ProEventos.API.pdb
 C:\Users\ujipe\OneDrive\Documentos\GitHub\ProEventos\back\src\ProEventos.API\obj\Debug\net5.0\ProEventos.API.genruntimeconfig.cache
-C:\Users\ujipe\OneDrive\Documentos\GitHub\ProEventos\Back\src\ProEventos.API\bin\Debug\net5.0\Humanizer.dll
 C:\Users\ujipe\OneDrive\Documentos\GitHub\ProEventos\Back\src\ProEventos.API\bin\Debug\net5.0\Microsoft.Data.Sqlite.dll
 C:\Users\ujipe\OneDrive\Documentos\GitHub\ProEventos\Back\src\ProEventos.API\bin\Debug\net5.0\Microsoft.DotNet.PlatformAbstractions.dll
 C:\Users\ujipe\OneDrive\Documentos\GitHub\ProEventos\Back\src\ProEventos.API\bin\Debug\net5.0\Microsoft.EntityFrameworkCore.dll
 C:\Users\ujipe\OneDrive\Documentos\GitHub\ProEventos\Back\src\ProEventos.API\bin\Debug\net5.0\Microsoft.EntityFrameworkCore.Abstractions.dll
-C:\Users\ujipe\OneDrive\Documentos\GitHub\ProEventos\Back\src\ProEventos.API\bin\Debug\net5.0\Microsoft.EntityFrameworkCore.Design.dll
 C:\Users\ujipe\OneDrive\Documentos\GitHub\ProEventos\Back\src\ProEventos.API\bin\Debug\net5.0\Microsoft.EntityFrameworkCore.Relational.dll
 C:\Users\ujipe\OneDrive\Documentos\GitHub\ProEventos\Back\src\ProEventos.API\bin\Debug\net5.0\Microsoft.EntityFrameworkCore.Sqlite.dll
 C:\Users\ujipe\OneDrive\Documentos\GitHub\ProEventos\Back\src\ProEventos.API\bin\Debug\net5.0\Microsoft.Extensions.DependencyInjection.dll
@@ -60,4 +58,6 @@ C:\Users\ujipe\OneDrive\Documentos\GitHub\ProEventos\Back\src\ProEventos.API\bin
 C:\Users\ujipe\OneDrive\Documentos\GitHub\ProEventos\Back\src\ProEventos.API\bin\Debug\net5.0\ProEventos.Application.pdb
 C:\Users\ujipe\OneDrive\Documentos\GitHub\ProEventos\Back\src\ProEventos.API\bin\Debug\net5.0\ProEventos.Domain.pdb
 C:\Users\ujipe\OneDrive\Documentos\GitHub\ProEventos\Back\src\ProEventos.API\bin\Debug\net5.0\ProEventos.Persistence.pdb
-C:\Users\ujipe\OneDrive\Documentos\GitHub\ProEventos\Back\src\ProEventos.API\obj\Debug\net5.0\refint\ProEventos.API.dll
+C:\Users\ujipe\OneDrive\Documentos\GitHub\ProEventos\Back\src\ProEventos.API\bin\Debug\net5.0\ref\ProEventos.API.dll
+C:\Users\ujipe\OneDrive\Documentos\GitHub\ProEventos\Back\src\ProEventos.API\bin\Debug\net5.0\Humanizer.dll
+C:\Users\ujipe\OneDrive\Documentos\GitHub\ProEventos\Back\src\ProEventos.API\bin\Debug\net5.0\Microsoft.EntityFrameworkCore.Design.dll

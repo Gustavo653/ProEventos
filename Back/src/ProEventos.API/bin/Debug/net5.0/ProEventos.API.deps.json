@@ -725,6 +725,8 @@
       },
       "ProEventos.Persistence/1.0.0": {
         "dependencies": {
+          "Microsoft.EntityFrameworkCore": "5.0.2",
+          "Microsoft.EntityFrameworkCore.Sqlite": "5.0.2",
           "ProEventos.Domain": "1.0.0"
         },
         "runtime": {
