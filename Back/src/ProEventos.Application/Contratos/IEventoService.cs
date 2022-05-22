@@ -5,9 +5,11 @@ namespace ProEventos.Application.Contratos
 {
     public interface IEventoService
     {
-         Task<Evento> AddEvento(Evento model);
-         Task<Evento> UpdateEVento(int eventoId, Evento model);
-         Task<bool> DeleteEventos(int eventoId);
-
+        Task<Evento> AddEvento(Evento model);
+        Task<Evento> UpdateEvento(int eventoId, Evento model);
+        Task<bool> DeleteEventos(int eventoId);
+        Task<Evento[]> GetAllEventosAsync(bool includePalestrante = false);
+        Task<Evento[]> GetAllEventosByTemaAsync(string tema, bool includePalestrante = false);
+        Task<Evento> GetEventoByIdAsync(int eventoId, bool includePalestrante = false);
     }
 }
