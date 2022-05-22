@@ -13,6 +13,7 @@ namespace ProEventos.Persistence
         public EventoPersist(ProEventosContext context)
         {
             this._context = context;
+            _context.ChangeTracker.QueryTrackingBehavior = QueryTrackingBehavior.NoTracking;
         }
 
         public async Task<Evento[]> GetAllEventosAsync(bool includePalestrante = false)
