@@ -58,10 +58,10 @@ C:\Users\ujipe\OneDrive\Documentos\GitHub\ProEventos\Back\src\ProEventos.API\bin
 C:\Users\ujipe\OneDrive\Documentos\GitHub\ProEventos\Back\src\ProEventos.API\bin\Debug\net5.0\ProEventos.Application.pdb
 C:\Users\ujipe\OneDrive\Documentos\GitHub\ProEventos\Back\src\ProEventos.API\bin\Debug\net5.0\ProEventos.Domain.pdb
 C:\Users\ujipe\OneDrive\Documentos\GitHub\ProEventos\Back\src\ProEventos.API\bin\Debug\net5.0\ProEventos.Persistence.pdb
-C:\Users\ujipe\OneDrive\Documentos\GitHub\ProEventos\Back\src\ProEventos.API\bin\Debug\net5.0\ref\ProEventos.API.dll
 C:\Users\ujipe\OneDrive\Documentos\GitHub\ProEventos\Back\src\ProEventos.API\bin\Debug\net5.0\Humanizer.dll
 C:\Users\ujipe\OneDrive\Documentos\GitHub\ProEventos\Back\src\ProEventos.API\bin\Debug\net5.0\Microsoft.EntityFrameworkCore.Design.dll
 C:\Users\ujipe\OneDrive\Documentos\GitHub\ProEventos\Back\src\ProEventos.API\bin\Debug\net5.0\Microsoft.AspNetCore.JsonPatch.dll
 C:\Users\ujipe\OneDrive\Documentos\GitHub\ProEventos\Back\src\ProEventos.API\bin\Debug\net5.0\Microsoft.AspNetCore.Mvc.NewtonsoftJson.dll
 C:\Users\ujipe\OneDrive\Documentos\GitHub\ProEventos\Back\src\ProEventos.API\bin\Debug\net5.0\Newtonsoft.Json.dll
 C:\Users\ujipe\OneDrive\Documentos\GitHub\ProEventos\Back\src\ProEventos.API\bin\Debug\net5.0\Newtonsoft.Json.Bson.dll
+C:\Users\ujipe\OneDrive\Documentos\GitHub\ProEventos\Back\src\ProEventos.API\bin\Debug\net5.0\ref\ProEventos.API.dll
