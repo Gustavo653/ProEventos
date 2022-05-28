@@ -1,5 +1,7 @@
 import { Component, OnInit, TemplateRef } from '@angular/core';
 import { BsModalRef, BsModalService } from 'ngx-bootstrap/modal';
+import { NgxSpinnerService } from 'ngx-spinner';
+import { ToastrService } from 'ngx-toastr';
 import { Evento } from '../models/Evento';
 import { EventoService } from '../services/evento.service';
 
@@ -18,7 +20,12 @@ export class EventosComponent implements OnInit {
   public exibirImagem: boolean = true;
   private _filtroLista: string = '';
 
-  constructor(private eventoService: EventoService, private modalService: BsModalService) {}
+  constructor(
+    private eventoService: EventoService,
+    private modalService: BsModalService,
+    private toastr: ToastrService,
+    private spinner: NgxSpinnerService
+  ) {}
 
   public get filtroLista(): string {
     return this._filtroLista;
@@ -45,24 +52,33 @@ export class EventosComponent implements OnInit {
         this.eventos = _eventos;
         this.eventosFiltrados = _eventos;
       },
-      (error) => console.log(error)
+      (error) => {
+        console.log(error);
+        this.spinner.hide();
+        this.toastr.error('Erro ao carregar eventos', 'Erro!');
+      },
+      (complete: void) => this.spinner.hide()
     );
   }
 
   public ngOnInit(): void {
+    this.spinner.show();
     this.getEventos();
+
+    setTimeout(() => {}, 5000);
   }
 
   public alterarImagem(): void {
     this.exibirImagem = !this.exibirImagem;
   }
   openModal(template: TemplateRef<any>) {
-    this.modalRef = this.modalService.show(template, {class: 'modal-sm'});
+    this.modalRef = this.modalService.show(template, { class: 'modal-sm' });
   }
-  confirm(): void{
+  confirm(): void {
     this.modalRef.hide();
+    this.toastr.success('Hello world!', 'Toastr fun!');
   }
-  decline(): void{
+  decline(): void {
     this.modalRef.hide();
   }
 }
