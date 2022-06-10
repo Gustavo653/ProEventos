@@ -8,10 +8,13 @@ namespace ProEventos.Application.Helpers
     {
         public ProEventosProfile()
         {
-            CreateMap<Evento, EventoDto>().ReverseMap();
-            CreateMap<Lote, LoteDto>().ReverseMap();
-            CreateMap<RedeSocial, RedeSocialDto>().ReverseMap();
-            CreateMap<Palestrante, PalestranteDto>().ReverseMap();
+            CreateMap<Product, ProductDTO>().ReverseMap();
+            CreateMap<ProductConfiguration, ProductConfigurationDTO>().ReverseMap();
+            CreateMap<ProductFilter, ProductFilterDTO>().ReverseMap();
+            CreateMap<ProductFilterItem, ProductFilterItemDTO>().ReverseMap();
+            CreateMap<ProductGrade, ProductGradeDTO>().ReverseMap();
+            CreateMap<ProductGroup, ProductGroupDTO>().ReverseMap();
+            CreateMap<ProductSubGroup, ProductSubGroupDTO>().ReverseMap();
         }
     }
 }

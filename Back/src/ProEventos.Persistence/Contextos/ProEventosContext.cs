@@ -6,16 +6,17 @@ namespace ProEventos.Persistence.Contextos
     public class ProEventosContext : DbContext
     {
         public ProEventosContext(DbContextOptions<ProEventosContext> options) : base(options) { }
-        public DbSet<Evento> Eventos { get; set; }
-        public DbSet<Lote> Lotes { get; set; }
-        public DbSet<Palestrante> Palestrantes { get; set; }
-        public DbSet<PalestranteEvento> PalestrantesEventos { get; set; }
-        public DbSet<RedeSocial> RedesSociais { get; set; }
+        public DbSet<Product> Products { get; set; }
+        public DbSet<ProductConfiguration> ProductConfiguration { get; set; }
+        public DbSet<ProductFilter> ProductFilter { get; set; }
+        public DbSet<ProductFilterItem> ProductFilterItem { get; set; }
+        public DbSet<ProductGrade> ProductGrade { get; set; }
+        public DbSet<ProductGroup> ProductGroup { get; set; }
+        public DbSet<ProductSubGroup> ProductSubGroup { get; set; }
 
-        protected override void OnModelCreating(ModelBuilder modelBuilder){
-            modelBuilder.Entity<PalestranteEvento>().HasKey(PE => new {PE.EventoId, PE.PalestranteId});
-            modelBuilder.Entity<Evento>().HasMany(e => e.RedesSociais).WithOne(rs => rs.Evento).OnDelete(DeleteBehavior.Cascade);
-            modelBuilder.Entity<Palestrante>().HasMany(e => e.RedesSociais).WithOne(rs => rs.Palestrante).OnDelete(DeleteBehavior.Cascade);
+        protected override void OnModelCreating(ModelBuilder modelBuilder)
+        {
+            modelBuilder.Entity<Product>().HasMany(x => x.Configs).WithOne(x => x.Product);
         }
     }
 }

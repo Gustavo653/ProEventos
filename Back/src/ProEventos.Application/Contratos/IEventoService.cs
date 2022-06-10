@@ -3,13 +3,10 @@ using ProEventos.Application.Dtos;
 
 namespace ProEventos.Application.Contratos
 {
-    public interface IEventoService
+    public interface IProductService
     {
-        Task<EventoDto> AddEvento(EventoDto model);
-        Task<EventoDto> UpdateEvento(int eventoId, EventoDto model);
-        Task<bool> DeleteEvento(int eventoId);
-        Task<EventoDto[]> GetAllEventosAsync(bool includePalestrante = false);
-        Task<EventoDto[]> GetAllEventosByTemaAsync(string tema, bool includePalestrante = false);
-        Task<EventoDto> GetEventoByIdAsync(int eventoId, bool includePalestrante = false);
+        Task<ProductDTO> AddProduct(ProductDTO model);
+        Task<ProductDTO> UpdateProduct(int productId, ProductDTO model);
+        Task<bool> DeleteProduct(int productId);
     }
 }
