@@ -1,7 +1,8 @@
 import { HttpClient } from '@angular/common/http';
 import { Injectable } from '@angular/core';
 
-import { Lote } from '../models/Lote';
+import { Lote } from '@app/models/Lote';
+
 import { Observable } from 'rxjs';
 import { take } from 'rxjs/operators';
 

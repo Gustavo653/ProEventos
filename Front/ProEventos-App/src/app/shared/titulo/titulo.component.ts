@@ -7,14 +7,16 @@ import { Router } from '@angular/router';
   styleUrls: ['./titulo.component.scss'],
 })
 export class TituloComponent implements OnInit {
-  @Input() titulo: string | undefined;
-  @Input() iconClass: string = 'fa fa-user';
-  @Input() subTitulo: string = 'Desde 2021';
-  @Input() botaoListar: boolean = false;
+  @Input() titulo: string;
+  @Input() iconClass = 'fa fa-user';
+  @Input() subtitulo = 'Desde 2021';
+  @Input() botaoListar = false;
+
   constructor(private router: Router) {}
 
-  ngOnInit() {}
+  ngOnInit(): void {}
+
   listar(): void {
-    this.router.navigate([`/${this.titulo?.toLocaleLowerCase()}/lista`]);
+    this.router.navigate([`/${this.titulo.toLocaleLowerCase()}/lista`]);
   }
 }

@@ -36,9 +36,12 @@ export class PerfilComponent implements OnInit {
     }, formOptions);
   }
 
+  // Conveniente para pegar um FormField apenas com a letra F
   get f(): any { return this.form.controls; }
 
   onSubmit(): void {
+
+    // Vai parar aqui se o form estiver inválido
     if (this.form.invalid) {
       return;
     }
