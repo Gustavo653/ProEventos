@@ -1,10 +1,10 @@
-using System;
-using System.Threading.Tasks;
 using AutoMapper;
 using ProEventos.Application.Contratos;
 using ProEventos.Application.Dtos;
 using ProEventos.Domain;
 using ProEventos.Persistence.Contratos;
+using System;
+using System.Threading.Tasks;
 
 namespace ProEventos.Application
 {

@@ -64,7 +64,6 @@ C:\Users\ujipe\OneDrive\Documentos\GitHub\ProEventos\Back\src\ProEventos.API\bin
 C:\Users\ujipe\OneDrive\Documentos\GitHub\ProEventos\Back\src\ProEventos.API\bin\Debug\net5.0\Microsoft.AspNetCore.Mvc.NewtonsoftJson.dll
 C:\Users\ujipe\OneDrive\Documentos\GitHub\ProEventos\Back\src\ProEventos.API\bin\Debug\net5.0\Newtonsoft.Json.dll
 C:\Users\ujipe\OneDrive\Documentos\GitHub\ProEventos\Back\src\ProEventos.API\bin\Debug\net5.0\Newtonsoft.Json.Bson.dll
-C:\Users\ujipe\OneDrive\Documentos\GitHub\ProEventos\Back\src\ProEventos.API\bin\Debug\net5.0\ref\ProEventos.API.dll
 C:\Users\ujipe\OneDrive\Documentos\GitHub\ProEventos\Back\src\ProEventos.API\bin\Debug\net5.0\AutoMapper.dll
 C:\Users\ujipe\OneDrive\Documentos\GitHub\ProEventos\Back\src\ProEventos.API\bin\Debug\net5.0\AutoMapper.Extensions.Microsoft.DependencyInjection.dll
 C:\Users\ujipe\OneDrive\Documentos\GitHub\ProEventos\Back\src\ProEventos.API\bin\Debug\net5.0\Microsoft.Extensions.DependencyInjection.Abstractions.dll
@@ -144,3 +143,4 @@ C:\Users\data53693\Desktop\DatainfoIntegracao\ProEventos\Back\src\ProEventos.API
 C:\Users\data53693\Desktop\DatainfoIntegracao\ProEventos\Back\src\ProEventos.API\obj\Debug\net5.0\ProEventos.API.csproj.CopyComplete
 C:\Users\data53693\Desktop\DatainfoIntegracao\ProEventos\Back\src\ProEventos.API\obj\Debug\net5.0\ProEventos.API.genruntimeconfig.cache
 C:\Users\data53693\Desktop\DatainfoIntegracao\ProEventos\Back\src\ProEventos.API\obj\Debug\net5.0\ref\ProEventos.API.dll
+C:\Users\ujipe\OneDrive\Documentos\GitHub\ProEventos\Back\src\ProEventos.API\obj\Debug\net5.0\refint\ProEventos.API.dll

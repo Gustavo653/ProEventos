@@ -1,6 +1,4 @@
-﻿using ProEventos.Application;
-using System.Collections.Generic;
-using System.ComponentModel.DataAnnotations;
+﻿using System.Collections.Generic;
 
 namespace ProEventos.Application.Dtos
 {

@@ -1,8 +1,6 @@
-using System.Linq;
-using System.Threading.Tasks;
-using Microsoft.EntityFrameworkCore;
 using ProEventos.Persistence.Contextos;
 using ProEventos.Persistence.Contratos;
+using System.Threading.Tasks;
 
 namespace ProEventos.Persistence
 {

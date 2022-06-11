@@ -1,11 +1,9 @@
-﻿using System;
-
-namespace ProEventos.Application.Dtos
+﻿namespace ProEventos.Application.Dtos
 {
     public class ProductFilterDTO : BaseDTO
     {
         public string Name { get; set; }
-        public Guid ID_ProductConfiguration { get; set; }
+        public int ProductConfigurationId { get; set; }
         public ProductConfigurationDTO ProductConfiguration { get; set; }
     }
 }

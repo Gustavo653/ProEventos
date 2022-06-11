@@ -2,10 +2,7 @@
 using ProEventos.Domain;
 using ProEventos.Persistence.Contextos;
 using ProEventos.Persistence.Contratos;
-using System;
-using System.Collections.Generic;
 using System.Linq;
-using System.Text;
 using System.Threading.Tasks;
 
 namespace ProEventos.Persistence
@@ -19,7 +16,7 @@ namespace ProEventos.Persistence
         }
         public async Task<Product[]> GetAllProductsAsync()
         {
-            IQueryable<Product> query = _context.Products;
+            IQueryable<Product> query = _context.Products.Include(x => x.Configs);
             return await query.ToArrayAsync();
         }
 
