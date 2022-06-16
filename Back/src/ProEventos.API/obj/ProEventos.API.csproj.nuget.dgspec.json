@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\ujipe\\OneDrive\\Documentos\\GitHub\\ProEventos\\back\\src\\ProEventos.API\\ProEventos.API.csproj": {}
+    "C:\\Users\\ujipe\\OneDrive\\Documentos\\GitHub\\ProEventos\\Back\\src\\ProEventos.Api\\ProEventos.API.csproj": {}
   },
   "projects": {
-    "C:\\Users\\ujipe\\OneDrive\\Documentos\\GitHub\\ProEventos\\back\\src\\ProEventos.API\\ProEventos.API.csproj": {
+    "C:\\Users\\ujipe\\OneDrive\\Documentos\\GitHub\\ProEventos\\Back\\src\\ProEventos.Api\\ProEventos.API.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\ujipe\\OneDrive\\Documentos\\GitHub\\ProEventos\\back\\src\\ProEventos.API\\ProEventos.API.csproj",
+        "projectUniqueName": "C:\\Users\\ujipe\\OneDrive\\Documentos\\GitHub\\ProEventos\\Back\\src\\ProEventos.Api\\ProEventos.API.csproj",
         "projectName": "ProEventos.API",
-        "projectPath": "C:\\Users\\ujipe\\OneDrive\\Documentos\\GitHub\\ProEventos\\back\\src\\ProEventos.API\\ProEventos.API.csproj",
+        "projectPath": "C:\\Users\\ujipe\\OneDrive\\Documentos\\GitHub\\ProEventos\\Back\\src\\ProEventos.Api\\ProEventos.API.csproj",
         "packagesPath": "C:\\Users\\ujipe\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\ujipe\\OneDrive\\Documentos\\GitHub\\ProEventos\\back\\src\\ProEventos.API\\obj\\",
+        "outputPath": "C:\\Users\\ujipe\\OneDrive\\Documentos\\GitHub\\ProEventos\\Back\\src\\ProEventos.Api\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -32,8 +32,8 @@
           "net5.0": {
             "targetAlias": "net5.0",
             "projectReferences": {
-              "C:\\Users\\ujipe\\OneDrive\\Documentos\\GitHub\\ProEventos\\back\\src\\ProEventos.Application\\ProEventos.Application.csproj": {
-                "projectPath": "C:\\Users\\ujipe\\OneDrive\\Documentos\\GitHub\\ProEventos\\back\\src\\ProEventos.Application\\ProEventos.Application.csproj"
+              "C:\\Users\\ujipe\\OneDrive\\Documentos\\GitHub\\ProEventos\\Back\\src\\ProEventos.Application\\ProEventos.Application.csproj": {
+                "projectPath": "C:\\Users\\ujipe\\OneDrive\\Documentos\\GitHub\\ProEventos\\Back\\src\\ProEventos.Application\\ProEventos.Application.csproj"
               }
             }
           }
@@ -99,14 +99,14 @@
         }
       }
     },
-    "C:\\Users\\ujipe\\OneDrive\\Documentos\\GitHub\\ProEventos\\back\\src\\ProEventos.Application\\ProEventos.Application.csproj": {
+    "C:\\Users\\ujipe\\OneDrive\\Documentos\\GitHub\\ProEventos\\Back\\src\\ProEventos.Application\\ProEventos.Application.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\ujipe\\OneDrive\\Documentos\\GitHub\\ProEventos\\back\\src\\ProEventos.Application\\ProEventos.Application.csproj",
+        "projectUniqueName": "C:\\Users\\ujipe\\OneDrive\\Documentos\\GitHub\\ProEventos\\Back\\src\\ProEventos.Application\\ProEventos.Application.csproj",
         "projectName": "ProEventos.Application",
-        "projectPath": "C:\\Users\\ujipe\\OneDrive\\Documentos\\GitHub\\ProEventos\\back\\src\\ProEventos.Application\\ProEventos.Application.csproj",
+        "projectPath": "C:\\Users\\ujipe\\OneDrive\\Documentos\\GitHub\\ProEventos\\Back\\src\\ProEventos.Application\\ProEventos.Application.csproj",
         "packagesPath": "C:\\Users\\ujipe\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\ujipe\\OneDrive\\Documentos\\GitHub\\ProEventos\\back\\src\\ProEventos.Application\\obj\\",
+        "outputPath": "C:\\Users\\ujipe\\OneDrive\\Documentos\\GitHub\\ProEventos\\Back\\src\\ProEventos.Application\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -127,11 +127,11 @@
           "net5.0": {
             "targetAlias": "net5.0",
             "projectReferences": {
-              "C:\\Users\\ujipe\\OneDrive\\Documentos\\GitHub\\ProEventos\\back\\src\\ProEventos.Domain\\ProEventos.Domain.csproj": {
-                "projectPath": "C:\\Users\\ujipe\\OneDrive\\Documentos\\GitHub\\ProEventos\\back\\src\\ProEventos.Domain\\ProEventos.Domain.csproj"
+              "C:\\Users\\ujipe\\OneDrive\\Documentos\\GitHub\\ProEventos\\Back\\src\\ProEventos.Domain\\ProEventos.Domain.csproj": {
+                "projectPath": "C:\\Users\\ujipe\\OneDrive\\Documentos\\GitHub\\ProEventos\\Back\\src\\ProEventos.Domain\\ProEventos.Domain.csproj"
               },
-              "C:\\Users\\ujipe\\OneDrive\\Documentos\\GitHub\\ProEventos\\back\\src\\ProEventos.Persistence\\ProEventos.Persistence.csproj": {
-                "projectPath": "C:\\Users\\ujipe\\OneDrive\\Documentos\\GitHub\\ProEventos\\back\\src\\ProEventos.Persistence\\ProEventos.Persistence.csproj"
+              "C:\\Users\\ujipe\\OneDrive\\Documentos\\GitHub\\ProEventos\\Back\\src\\ProEventos.Persistence\\ProEventos.Persistence.csproj": {
+                "projectPath": "C:\\Users\\ujipe\\OneDrive\\Documentos\\GitHub\\ProEventos\\Back\\src\\ProEventos.Persistence\\ProEventos.Persistence.csproj"
               }
             }
           }
@@ -170,14 +170,14 @@
         }
       }
     },
-    "C:\\Users\\ujipe\\OneDrive\\Documentos\\GitHub\\ProEventos\\back\\src\\ProEventos.Domain\\ProEventos.Domain.csproj": {
+    "C:\\Users\\ujipe\\OneDrive\\Documentos\\GitHub\\ProEventos\\Back\\src\\ProEventos.Domain\\ProEventos.Domain.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\ujipe\\OneDrive\\Documentos\\GitHub\\ProEventos\\back\\src\\ProEventos.Domain\\ProEventos.Domain.csproj",
+        "projectUniqueName": "C:\\Users\\ujipe\\OneDrive\\Documentos\\GitHub\\ProEventos\\Back\\src\\ProEventos.Domain\\ProEventos.Domain.csproj",
         "projectName": "ProEventos.Domain",
-        "projectPath": "C:\\Users\\ujipe\\OneDrive\\Documentos\\GitHub\\ProEventos\\back\\src\\ProEventos.Domain\\ProEventos.Domain.csproj",
+        "projectPath": "C:\\Users\\ujipe\\OneDrive\\Documentos\\GitHub\\ProEventos\\Back\\src\\ProEventos.Domain\\ProEventos.Domain.csproj",
         "packagesPath": "C:\\Users\\ujipe\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\ujipe\\OneDrive\\Documentos\\GitHub\\ProEventos\\back\\src\\ProEventos.Domain\\obj\\",
+        "outputPath": "C:\\Users\\ujipe\\OneDrive\\Documentos\\GitHub\\ProEventos\\Back\\src\\ProEventos.Domain\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -209,6 +209,12 @@
       "frameworks": {
         "net5.0": {
           "targetAlias": "net5.0",
+          "dependencies": {
+            "Microsoft.AspNetCore.Identity.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[5.0.2, )"
+            }
+          },
           "imports": [
             "net461",
             "net462",
@@ -228,14 +234,14 @@
         }
       }
     },
-    "C:\\Users\\ujipe\\OneDrive\\Documentos\\GitHub\\ProEventos\\back\\src\\ProEventos.Persistence\\ProEventos.Persistence.csproj": {
+    "C:\\Users\\ujipe\\OneDrive\\Documentos\\GitHub\\ProEventos\\Back\\src\\ProEventos.Persistence\\ProEventos.Persistence.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\ujipe\\OneDrive\\Documentos\\GitHub\\ProEventos\\back\\src\\ProEventos.Persistence\\ProEventos.Persistence.csproj",
+        "projectUniqueName": "C:\\Users\\ujipe\\OneDrive\\Documentos\\GitHub\\ProEventos\\Back\\src\\ProEventos.Persistence\\ProEventos.Persistence.csproj",
         "projectName": "ProEventos.Persistence",
-        "projectPath": "C:\\Users\\ujipe\\OneDrive\\Documentos\\GitHub\\ProEventos\\back\\src\\ProEventos.Persistence\\ProEventos.Persistence.csproj",
+        "projectPath": "C:\\Users\\ujipe\\OneDrive\\Documentos\\GitHub\\ProEventos\\Back\\src\\ProEventos.Persistence\\ProEventos.Persistence.csproj",
         "packagesPath": "C:\\Users\\ujipe\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\ujipe\\OneDrive\\Documentos\\GitHub\\ProEventos\\back\\src\\ProEventos.Persistence\\obj\\",
+        "outputPath": "C:\\Users\\ujipe\\OneDrive\\Documentos\\GitHub\\ProEventos\\Back\\src\\ProEventos.Persistence\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -256,8 +262,8 @@
           "net5.0": {
             "targetAlias": "net5.0",
             "projectReferences": {
-              "C:\\Users\\ujipe\\OneDrive\\Documentos\\GitHub\\ProEventos\\back\\src\\ProEventos.Domain\\ProEventos.Domain.csproj": {
-                "projectPath": "C:\\Users\\ujipe\\OneDrive\\Documentos\\GitHub\\ProEventos\\back\\src\\ProEventos.Domain\\ProEventos.Domain.csproj"
+              "C:\\Users\\ujipe\\OneDrive\\Documentos\\GitHub\\ProEventos\\Back\\src\\ProEventos.Domain\\ProEventos.Domain.csproj": {
+                "projectPath": "C:\\Users\\ujipe\\OneDrive\\Documentos\\GitHub\\ProEventos\\Back\\src\\ProEventos.Domain\\ProEventos.Domain.csproj"
               }
             }
           }
@@ -272,6 +278,10 @@
         "net5.0": {
           "targetAlias": "net5.0",
           "dependencies": {
+            "Microsoft.AspNetCore.Identity.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[5.0.2, )"
+            },
             "Microsoft.EntityFrameworkCore": {
               "target": "Package",
               "version": "[5.0.2, )"
